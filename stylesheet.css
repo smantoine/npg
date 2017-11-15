@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css?family=Akronim|Cinzel|Raleway|Revalia|Trade+Winds');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family:  'Raleway', sans-serif;
+}
+/*logo in navigation bar or header*/
+
+/* Add logo*/
+
+.logo{
+    padding:20px;
+}
+.logo img{
+    width: 200px;
+    
+}
+    /*font-stretch try ultra-condensed*/
+     /*color: #000000;*/
+    /*color: #0e160d;*/
+   /* color: #593401; Brown or dark grey #0e160d-->*
+   /*background-color: #f4f4f4*/
+   /*:: first-letter {*/
+   /*    font-size: 30px;*/
+   /*    color: #c110407;*/
+   /*}*/
+
+
+.logo > a {
+    font-family: Akronim, cursive;
+    font-size: 24px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+.name
+{ 
+    font-size: 24px;
+    color: #c11407;
+}
+
+
+/*{*/
+/*    max-width: 50px;*/
+/*    max-height: 100%;*/
+/*}*/
+/*
+.text {   
+    float: left;
+    font-size: 24px;
+}
+/*image 
+  float: left;
+    
+}
+*/
+nav{
+    display: flex;
+    justify-content:space-between;
+}
+.navbar {
+    background-color: #ffffff;
+    font-family: serif;
+    color: #000000;
+    list-style: none;
+    text-align: right;
+    padding: 10px 5px 10px 5px;
+    /*position: ;
+    top: ;
+    width: 100%; */
+}
+
+.navbar > li {
+    display: inline-block;
+    padding-right: 30px;
+    font-size: 14px;
+   
+}
+
+.navbar > li > a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.navbar > li > a:hover
+{
+    color: #c11407;
+    
+}
+
+
+.homepage
+{
+    position: relative;
+    background-image: url('images/frontpage.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+    width: 100%
+}
+
+.homepage h1 
+{
+    font-family: 'Cinzel', serif;
+    font-size: 75px;
+    text-align: center;
+    color: #000000;
+    background-color: #FFFFFF;
+    padding: 5px 2px 5px 2px;
+    margin:  0;
+    
+    /*shadow font - yes or no*/
+    }
+
+.homepage h2
+    {
+        text-decoration: none;
+        color: #c11407;
+        font-family: 'Cinzel';
+        font-size: 22px;
+        text-align: right;
+    }
+    
+   /* Add the following colors for font and background  - background-color: transparent or font-color: #7f7c7f;-->*/
+    a {
+        text-decoration: none;
+        color: #e1ebc28;
+    }
+    
+    /*a:active {*/
+    /*    background-color: #e1ebc28;*/
+    /*}*/
+    
+.quote
+    {
+    font-family: 'Cinzel', serif;
+     text-align: center;
+     color: #FFFFFF;
+     width: 40em;
+     border: none;
+     word-wrap: break-word;
+     position: absolute;
+     left: 20px;
+     top:70%;
+    }
+    
+ .quotes
+ {
+     font-family: 'Cinzel', serif;
+     text-align: center;
+     width: 100%;
+     color: #000000;
+    /*width: 40em;*/
+     border: none;
+     font-weight: bold;
+     word-wrap: break-word;
+     /*left: 20px:
+     bottom: 8px;*/
+    }
+     
+.welcome
+{
+    font-family: 'Cinzel', serif;
+    font-size: 20px;
+    text-align: center;
+    color: #000000;
+    background-color: #ffffff;
+    padding: 10px 0 10px 0;
+    border-collapse: collapse;
+    margin:  0;
+}
+
+.banner-w {
+    width: 100%;
+    display: inherit; 
+}
+
+.banner-image-w {
+    height: 500px;
+    width: 100%;
+}
+
+
+.banner-h {
+    width: 100%;
+    display: inherit;
+}
+
+.banner-image-h {
+    height: 500px;
+    width: 100%;
+}
+
+.w-image {
+   margin: 20px;
+   float: left;
+}
+
+/*.w-text {*/
+/*   width: 70%;*/
+/*}*/
+
+.container{
+    margin: auto;
+    width: 70%;
+}
+
+
+.history
+{
+    font-family: 'Cinzel', serif;
+    font-size: 20px;
+    text-align: center;
+    color: #000000;
+    background-color: #ffffff;
+    padding: 10px 0 10px 0;
+    border-collapse: collapse;
+    margin:  0;
+}
+
+.section_h {
+font-size: 25px;
+text-align: justify;
+/*padding: 50px; 200px; 50px; 200px;*/
+padding-top: 50px;
+padding-bottom: inherit;
+padding-left: 200px;
+padding-right: 200px;
+}
+.us_national_parks
+{
+    font-family: 'Cinzel', serif;
+    font-size: 20px;
+    text-align: center;
+    color: #000000;
+    background-color: #ffffff;
+    padding: 10px 0 10px 0;
+    border-collapse: collapse;
+    margin:  0;
+}
+/*background-color: #5C86C9*/
+
+.banner-image-npusa {
+    width: 100%;
+    height: 500px;
+    display: block; 
+}
+
+/*
+.us_national_parks h2
+ {
+    font-family: 'Raleway, serif;
+    text-align: right;
+    color: #000000
+    font-size: 20px;
+  */ 
+
+
+.contact_us
+{
+    font-family: 'Cinzel', serif;
+    font-size: 20px;
+    text-align: center;
+    color: #ffffff;
+    background-color: inherit;
+    padding: 10px 0 10px 0;
+    border-collapse: collapse;
+    margin:  0;
+}    
+
+.banner2 {
+    width: 100%;
+    display: inherit; 
+}
+
+.banner-image2 {
+    height: 500px;
+    width: 100%;
+    
+}
+
+.banner-pg {
+    width: 100%;
+    display: inherit; 
+}
+
+.banner-image-pg {
+    height: 500px;
+    width: 100%;
+}
+  /* possible Google fonts
+  @import url ('https://fonts.googleapis.com/css?family=Cinzel');
+@import url ('https://fonts.googleapis.com/css?family=Raleway');
+@ import url ('https://fonts.googleapis.com/css?family=Revalia,cursive');
+@ import url ('https://fonts.googleapis.com/css?family=Trade Winds,cursive');
+@ import url ('https://fonts.googleapis.com/css?family=Akronim,cursive');
+/
+
+
+/* Main content*/
+.main_menu {
+    margin-bottom: 30px; /* Add a bottom margin to avoid content overlay*/
+} 
